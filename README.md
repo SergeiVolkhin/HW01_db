@@ -35,12 +35,12 @@ HW01_db/
 │
 ├── Unloading/                 # Выгрузка данных из БД
 │   ├── сustomers.jpg          # Скриншот таблицы customers
-│   ├── сustomers.sql          # SQL-запрос для выгрузки customers
+│   ├── сustomers.sql          # SQL-скрипт для выгрузки customers
 │   ├── transaction.jpg        # Скриншот таблицы transaction
-│   └── transaction.sql        # SQL-запрос для выгрузки transaction
+│   └── transaction.sql        # SQL-скрипт для выгрузки transaction
 │
-├── etl_1.py                   # Шаг 1: Загрузка справочников (Dimensions)
-├── etl_2.py                   # Шаг 2: Загрузка фактов (Facts)
+├── etl_1.py                   # Шаг 1: Загрузка справочников
+├── etl_2.py                   # Шаг 2: Загрузка основных таблиц
 ├── run_etl.py                 # Оркестратор: запускает оба ETL-скрипта
 │
 ├── requirements.txt           # Зависимости проекта
